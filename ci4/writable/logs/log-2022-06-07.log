@@ -1,0 +1,211 @@
+CRITICAL - 2022-06-07 08:25:31 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 231.
+ 1 SYSTEMPATH\CodeIgniter.php(231): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(189): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(43): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-06-07 08:27:16 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 231.
+ 1 SYSTEMPATH\CodeIgniter.php(231): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(189): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(43): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-06-07 08:27:43 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 231.
+ 1 SYSTEMPATH\CodeIgniter.php(231): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(189): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(43): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-06-07 08:27:44 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 231.
+ 1 SYSTEMPATH\CodeIgniter.php(231): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(189): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(43): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-06-07 08:27:45 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 231.
+ 1 SYSTEMPATH\CodeIgniter.php(231): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(189): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(43): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-06-07 08:27:47 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 231.
+ 1 SYSTEMPATH\CodeIgniter.php(231): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(189): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(43): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-06-07 08:27:57 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 231.
+ 1 SYSTEMPATH\CodeIgniter.php(231): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(189): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(43): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-06-07 06:24:31 --> Invalid file: template/footer.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/footer.php')
+ 2 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('template/footer', null, true)
+ 3 APPPATH\Views\about.php(12): CodeIgniter\View\View->include('template/footer')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('about', [], true)
+ 7 APPPATH\Controllers\page.php(10): view('about', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\page->about()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\page))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-07 06:28:58 --> Invalid file: template/footer.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/footer.php')
+ 2 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('template/footer', null, true)
+ 3 APPPATH\Views\about.php(14): CodeIgniter\View\View->include('template/footer')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('about', [], true)
+ 7 APPPATH\Controllers\page.php(10): view('about', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\page->about()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\page))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-07 07:46:30 --> syntax error, unexpected ''subtitle'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH\Controllers\page.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\page.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Page')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Page')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Page')
+ 5 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Page', true)
+ 6 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-07 07:47:09 --> syntax error, unexpected ''title'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH\Controllers\page.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\page.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Page')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Page')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Page')
+ 5 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Page', true)
+ 6 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-07 07:52:50 --> Invalid file: home.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('home')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-07 07:57:13 --> Invalid file: home.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('home')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-07 07:57:14 --> Invalid file: home.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('home')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-07 08:02:44 --> Undefined variable: subtitle
+in APPPATH\Views\template\header.php on line 15.
+ 1 APPPATH\Views\template\header.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: subtitle', 'APPPATH\\Views\\template\\header.php', 15, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('template/header', null, true)
+ 5 APPPATH\Views\about.php(8): CodeIgniter\View\View->include('template/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('about', [], true)
+ 9 APPPATH\Controllers\page.php(10): view('about', [...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\page->about()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\page))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-07 08:02:50 --> Undefined variable: subtitle
+in APPPATH\Views\template\header.php on line 15.
+ 1 APPPATH\Views\template\header.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: subtitle', 'APPPATH\\Views\\template\\header.php', 15, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('template/header', null, true)
+ 5 APPPATH\Views\about.php(8): CodeIgniter\View\View->include('template/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('about', [], true)
+ 9 APPPATH\Controllers\page.php(10): view('about', [...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\page->about()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\page))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-07 08:15:19 --> Invalid file: home.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('home')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-07 08:15:22 --> Invalid file: home.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('home')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-07 08:15:58 --> Invalid file: home.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('home')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-07 08:21:39 --> Invalid file: home.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('home')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-07 08:48:09 --> Invalid file: home.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('home')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-07 09:18:05 --> Invalid file: template/box.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/box.php')
+ 2 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('template/box', null, true)
+ 3 APPPATH\Views\home.php(6): CodeIgniter\View\View->include('template/box')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home', [], true)
+ 7 APPPATH\Controllers\Home.php(9): view('home')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
