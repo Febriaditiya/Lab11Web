@@ -56,3 +56,123 @@ Paraktikum 11 PHP Framework (codeigniter)
 ### tampilan browser nya seperti ini pada menu contact
 
 ![12png](ci4/public/img/12.png)
+
+
+# Praktikum 12: Framework lanjutan (CRUD)
+### Intruksi praktikum
+1. persiapkan text editor misalnya VSCode.
+2. Buka kembali folder dengan nama lab11_php_ci pada docroot webserver (htdocs)
+3. Ikuti langkah-langkah praktikumyang akan dijelaskan berikutnya.
+
+### Membuat Database
+
+![15png](ci4/public/img/15.png)
+
+### Membuat tabel
+
+![16png](ci4/public/img/16.png)
+
+### Konfigurasi Koneksi Database
+`ada dua cara pertama dapat di file app/config/database.php atau bisa juga menggunakan .env`
+
+![18png](ci4/public/img/18.png)
+
+![19png](ci4/public/img/19.png)
+
+### Membuat Model
+`Buat file di dalam folder models dengan nama ArtikelModel.php`
+
+![20png](ci4/public/img/20.png)
+
+### Membuat Controller
+`Membuat direktori Artikel.php di dalam folder Controller`
+
+![21png](ci4/public/img/21.png)
+
+### Membuat View
+`Buat Direktori baru di dalam folder Views lalu buat file index.php`
+
+![22png](ci4/public/img/22.png)
+
+`lalu buka browser untuk melihat tampilannya. http://localhost:8080/artikel`
+
+![23png](ci4/public/img/23.png)
+
+`Kemudian coba tambahkan beberapa data pada databases agar dapat ditampilkan datanya.`
+
+![24png](ci4/public/img/24.png)
+
+`lalu buka kembali browser untuk melihat hasil tampilannya`
+
+#### Membuat Tampilan Detail Artikel
+`pada saat judul berita di klik maka akan diarahkan kehalaman yang berbeda tambahkan fungsi baru pada controller artikel dengan nama view()
+
+![25png](ci4/public/img/25.png)
+
+### Membuat view detail
+`Buat view baru dengan nama app/views/artikel/detail.php`
+
+![26png](ci4/public/img/26.png)
+
+### Lalu Buat Roating untuk artikel detail
+`pada file app/config/Routes.php`
+
+![27png](ci4/public/img/27.png)
+
+`Lalu buka browser kembali untuk melihat tampilannya`
+
+![28png](ci4/public/img/28.png)
+
+### Membuat Menu Admin
+`menu admin adalah untuk proses CRUD data artikel. Buat method baru pada Controller Artikel dengan nama admin_index()`
+
+![29png](ci4/public/img/29.png)
+
+`Selanjutnya buat view untuk tampilan admin dengan nama admin_index.php`
+
+![30png](ci4/public/img/30.png)
+
+![31png](ci4/public/img/31.png)
+
+`Tambahkan Routing untuk menu admin`
+
+![32png](ci4/public/img/32.png)
+
+`Untuk akses menu admin dengan url http://localhost:8080/admin/artikel`
+
+![33png](ci4/public/img/33.png)
+
+### Menambahkan Data Artikel
+`Tambahkan fungsi baru  pada Controller Artikel dengan nama add()`
+
+![34png](ci4/public/img/34.png)
+
+`Kemudian buat view untuk form tambah dengan nama form_add.php`
+
+![35png](ci4/public/img/35.png)
+
+`Maka tampilannya sebagai berikut`
+
+![36png](ci4/public/img/36.png)
+
+### Mengubah Data
+`Tambahkan fungsi Controller Artikel dengan nama edit()`
+
+![37png](ci4/public/img/37.png)
+
+`Kemudaian  buat view form tambah dengan nama form_edit.php`
+
+![38png](ci4/public/img/38.png)
+
+`Hasilnya sebagai berikut`
+
+![39png](ci4/public/img/39.png)
+
+### Menghapus Data
+`Tambah fungsi baru pada Controller Artikel dengan nama delete`
+
+![40png](ci4/public/img/40.png)
+
+`Maka Tampilan delete nya sebagai berikut`
+
+![41png](ci4/public/img/41.png)

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout Sederhana</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     <div id="container">
@@ -16,10 +16,11 @@
     </header>
     <nav>
         <a href="<?= base_url('/')?>" class="active">Home</a>
-        <a href="<?= base_url('/artikel')?>">Artikel</a>
+        <a href="<?= base_url('/artikel/index')?>">Artikel</a>
         <a href="<?= base_url('/about')?>">About</a>
         <a href="<?= base_url('/contact')?>">Kontak</a>
     </nav>
+    
     <!-- <section id="hero"> 
         <h1>Hello Word</h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos exercitationem placeat excepturi perspiciatis eius facilis pariatur ducimus quis quas temporibus. Quam debitis temporibus voluptatibus, quasi fuga consequuntur voluptate numquam accusantium?</p>

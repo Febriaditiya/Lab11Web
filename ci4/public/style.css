@@ -83,8 +83,8 @@ nav a:hover {
 /* sidebar area */
 #sidebar {
     /* float: left; */
-    width: 260px;
-    padding: 20px;
+    width: 200px;
+    padding: -1px;
     float: right;
 }
 
@@ -324,3 +324,7 @@ content .form-group input {
       margin-top: 0;
     }
   }
+
+  
+  
+
