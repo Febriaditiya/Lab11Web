@@ -104,29 +104,31 @@ Paraktikum 11 PHP Framework (codeigniter)
 
 `lalu buka kembali browser untuk melihat hasil tampilannya`
 
+![25png](ci4/public/img/25.png)
+
 #### Membuat Tampilan Detail Artikel
 `pada saat judul berita di klik maka akan diarahkan kehalaman yang berbeda tambahkan fungsi baru pada controller artikel dengan nama view()
 
-![25png](ci4/public/img/25.png)
+![26png](ci4/public/img/26.png)
 
 ### Membuat view detail
 `Buat view baru dengan nama app/views/artikel/detail.php`
 
-![26png](ci4/public/img/26.png)
+![27png](ci4/public/img/27.png)
 
 ### Lalu Buat Roating untuk artikel detail
 `pada file app/config/Routes.php`
 
-![27png](ci4/public/img/27.png)
+![28png](ci4/public/img/28.png)
 
 `Lalu buka browser kembali untuk melihat tampilannya`
 
-![28png](ci4/public/img/28.png)
+![29png](ci4/public/img/29.png)
 
 ### Membuat Menu Admin
 `menu admin adalah untuk proses CRUD data artikel. Buat method baru pada Controller Artikel dengan nama admin_index()`
 
-![29png](ci4/public/img/29.png)
+![42png](ci4/public/img/42.png)
 
 `Selanjutnya buat view untuk tampilan admin dengan nama admin_index.php`
 
