@@ -128,7 +128,7 @@ Paraktikum 11 PHP Framework (codeigniter)
 ### Membuat Menu Admin
 `menu admin adalah untuk proses CRUD data artikel. Buat method baru pada Controller Artikel dengan nama admin_index()`
 
-![42png](ci4/public/img/42.png)
+![17png](ci4/public/img/17.png)
 
 `Selanjutnya buat view untuk tampilan admin dengan nama admin_index.php`
 
