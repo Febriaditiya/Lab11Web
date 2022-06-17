@@ -5,8 +5,8 @@
 
 <div class="about">
 <img src="/img/IMG.jpg" alt="">
-        <h2>Febri Aditiya</h2>
-        <h4>312010212</h4>
+        <h2><?= $nama; ?></h2>
+        <h4><?= $nim; ?></h4>
         <hr class="divider" />
         <div class="kontent">
             <p align="center">

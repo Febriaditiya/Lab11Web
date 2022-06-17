@@ -1,0 +1,28 @@
+CRITICAL - 2022-06-17 08:33:36 --> Undefined variable: subtitle
+in APPPATH\Views\template\header.php on line 15.
+ 1 APPPATH\Views\template\header.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: subtitle', 'APPPATH\\Views\\template\\header.php', 15, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('template/header', null, true)
+ 5 APPPATH\Views\contact.php(1): CodeIgniter\View\View->include('template/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contact.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('contact', [], true)
+ 9 APPPATH\Controllers\Page.php(25): view('contact')
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Page->contact()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-17 11:51:00 --> Class 'Config\App\Filters\Auth' not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\Filters\Filters->run('admin/artikel', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-17 11:56:00 --> Class 'Config\App\Filters\Auth' not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\Filters\Filters->run('admin/artikel', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

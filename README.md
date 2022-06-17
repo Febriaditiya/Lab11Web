@@ -1,3 +1,7 @@
+## Febri Aditiya
+## 312010212
+## TI.20.A2
+
 # Lab11Web
 Paraktikum 11 PHP Framework (codeigniter)
 
@@ -178,3 +182,75 @@ Paraktikum 11 PHP Framework (codeigniter)
 `Maka Tampilan delete nya sebagai berikut`
 
 ![41png](ci4/public/img/41.png)
+
+
+# Praktikum 13: Frammework lanjutan (Modul Login)
+### Intruksi praktikum
+1. persiapkan text editor misalnya VSCode.
+2. Buka kembali folder dengan nama lab11_php_ci pada docroot webserver (htdocs)
+3. Ikuti langkah-langkah praktikumyang akan dijelaskan berikutnya.
+
+### Langkah-langkah Paraktikum 
+### Membuat Table User
+
+![42png](ci4/public/img/42.png)
+
+### Membuat Model User
+*Membuat model untuk memproses data login. pada direktori app/Models dengan nama UserModel.php*
+
+![43png](ci4/public/img/43.png)
+
+### Membuat Controller User
+*Buat controller baru dengan nama User.php pada direktori app/Controller*
+
+![44png](ci4/public/img/44.png)
+
+![45png](ci4/public/img/45.png)
+
+### Membuat View Login
+*Buat direktori baru dengan nama user pada direktori app/view kemudian buat file baru login.php*
+
+![46png](ci4/public/img/46.png)
+
+### Membuat Database Seeder
+*Database seeder digunakan untuk membuat data dummy. Untuk keperluan uji coba modul login, kita perku masukkan data user dan password kedalam database, untuk itu membuat database seeder untuk tabel user. Buka CLI tulis perintah berikut:*
+
+![47png](ci4/public/img/47.png)
+
+*Selanjutnya buka file UserSeeder.php yang berada di lokasi direktori app/database/seeds/UserSeeder.php kemudian isi dengan ini.*
+
+![48png](ci4/public/img/48.png)
+
+*Selanjutnya Buka kembali CLI ketik perintah berikut.*
+
+![49png](ci4/public/img/49.png)
+
+### Uji coba login
+*Selanjutnya buka URL https://localhost:8080/user/login seperti berikut.*
+
+![50png](ci4/public/img/50.png)
+
+### Menambhakan Auth Filter
+*Membuat filter untuk halaman admin. Buat file baru dengan nama Auth.php pada direktori app/Filter.*
+
+![51png](ci4/public/img/51.png)
+
+*Selanjutnya buka file app/Config/Filters.php tambahkan seperti berikut.*
+
+![52png](ci4/public/img/52.png)
+
+*Selanjutnya buka file app/Config/Routes.php dan sesuaikan kodenya.*
+
+![53png](ci4/public/img/53.png)
+
+*Selanjutnya buka URL https://localhost:8080/user/login seperti berikut.*
+
+![50png](ci4/public/img/50.png)
+
+### Fungsi Logout 
+*Tambahkan method logout pada Controller User seperti berikut.*
+
+![54png](ci4/public/img/54.png)
+
+### Pertanyaan Dan Tugas
+*Selesaikan Programnya sesuai denga langkah-langkah yang ada. Anda boleh melakukan improvisasi.*

@@ -42,9 +42,9 @@ $routes->get('/contact', 'Page::contact');
 $routes->get('/faqs', 'Page::faqs');
 
 $routes->get('/artikel/(:any)', 'Artikel::view/$1');
-
+$routes->get('/user/login', 'User::login');
 //Menu admin
-$routes->group('admin', function($routes) {
+$routes->group('admin', ['Filter' => 'auth'], function($routes) {
     $routes->get('artikel', 'Artikel::admin_index');
     $routes->add('artikel/add', 'Artikel::add');
     $routes->add('artikel/edit/(:any)', 'Artikel::edit/$1');
