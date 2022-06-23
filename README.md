@@ -254,3 +254,65 @@ Paraktikum 11 PHP Framework (codeigniter)
 
 ### Pertanyaan Dan Tugas
 *Selesaikan Programnya sesuai denga langkah-langkah yang ada. Anda boleh melakukan improvisasi.*
+
+
+# Praktikum 14: Pagination dan Pencarian
+### Intruksi praktikum
+1. persiapkan text editor misalnya VSCode.
+2. Buka kembali folder dengan nama lab11_php_ci pada docroot webserver (htdocs)
+3. Ikuti langkah-langkah praktikumyang akan dijelaskan berikutnya.
+
+## Langkah-langkah Praktikum
+### Membuat Pagination
+*Pagination merupakan proses yang digunakan untuk membatasi tampilan yang panjang dari data yang banyak pada sebuah website. Fungsi pagination adalah memecah tampilan menjadi beberapa halaman tergantung banyaknya data yang akan ditampilkan pada setiap halaman.*
+
+`Untuk membuat pagination, buka Kembali Controller Artikel, kemudian modifikasi kode pada method admin_index seperti berikut.`
+
+![55png](ci4/public/img/55.png)
+
+`Kemudian buka file views/artikel/admin_index.php dan tambahkan kode berikut dibawah deklarasi tabel data.`
+
+![56png](ci4/public/img/56.png)
+
+`Selanjutnya buka kembali menu daftar artikel, tambahkan data lagi untuk melihat hasilnya.`
+
+![57png](ci4/public/img/57.png)
+
+### Membuat Pencarian
+`Pencarian data digunakan untuk memfilter data.`
+
+`Untuk membuat pencarian data, buka kembali Controller Artikel, pada method admin_index ubah kodenya seperti berikut`
+
+![58png](ci4/public/img/58.png)
+
+`Kemudian buka kembali file views/artikel/admin_index.php dan tambahkan form pencarian sebelum deklarasi tabel seperti berikut:`
+
+![59png](ci4/public/img/59.png)
+
+`Dan pada link pager ubah seperti berikut.`
+
+![60png](ci4/public/img/60.png)
+
+`Selanjutnya ujicoba dengan membuka kembali halaman admin artikel, masukkan kata kunci tertentu pada form pencarian.`
+
+![61png](ci4/public/img/61.png)
+
+### Upload Gambar
+`Menambahkan fungsi unggah gambar pada tambah artikel. Buka kembali Controller Artikel, sesuaikan kode pada method add seperti berikut:`
+
+![62png](ci4/public/img/62.png)
+
+`Kemudian pada file views/artikel/form_add.php tambahkan field input file seperti berikut.`
+
+![63png](ci4/public/img/63.png)
+
+`Dan sesuaikan tag form dengan menambahkan ecrypt type seperti berikut.`
+
+![64png](ci4/public/img/64.png)
+
+`Ujicoba file upload dengan mengakses menu tambah artikel.`
+
+![65png](ci4/public/img/65.png)
+
+## Pertanyaan dan Tugas
+*Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan improvisasi.*
